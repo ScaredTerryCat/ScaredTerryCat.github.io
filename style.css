@@ -1,0 +1,44 @@
+body{margin:0px;background-image:url(eu.jpg);}
+#container1
+{
+display:flex;
+background-color:lightgrey;
+margin:60px;
+margin-bottom:0px;
+margin-right:100px;
+margin-left:100px;
+text-align:center;
+}
+img {
+    margin: 30px;
+    margin-left: 60px;
+    border-radius: 50%; /* Makes the image circular */
+    width: 300px; /* Set a fixed width and height */
+    height: 300px; /* Ensures the image is square, necessary for a perfect circle */
+    object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+}
+
+#Info{margin:50px;}
+reder{color:red;}
+h1{text-align:center;color:purple;}
+para{color:yellow;}
+#container2
+{display:inline-element;
+background-color:grey;
+color:white;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:100px;
+margin-right:100px;
+padding:10px;
+}
+#c{text-align:left;color:black;margin-left:30px;margin-right:30px;padding:2px;}
+#name{text-align:center;}
+colo{color:lightgreen;border-radius:10px;padding:5px;}
+#atribute{margin-left:30px;color:darkblue;background-color:lightgrey;display:inline-block;padding:5px;border-radius:10px;font-size:30px;}
+li{margin-left:50px;}
+i{font-size:20px;}
+#name{background-color:lightgrey;}
+#cc{background-color:white;padding:5px;border-radius:5px;padding-right:20px;border:2px solid black;}
+#ct{text-align:center;padding-right:20px;color:black;background-color:lightgrey;margin-left:30px;}
+#ccc{background-color:lightgrey;margin-left:27px;}
