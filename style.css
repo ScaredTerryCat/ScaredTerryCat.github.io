@@ -55,7 +55,8 @@ para {
 #c {
     text-align: left;
     color: black;
-    margin: 10p 10px;
+    margin-top:10px;
+    margin-left:2px;
     padding: 2px;
 }
 
