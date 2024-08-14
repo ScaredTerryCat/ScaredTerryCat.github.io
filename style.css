@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color:#2c3e50;
+    background-size: cover;
+    background-position: center;
+}
+
+#container1 {
+    display: flex;
+    background-color: lightgrey;
+    margin: 60px 100px 0;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img {
+    margin: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#Info {
+    margin: 30px;
+    flex: 1;
+    min-width: 250px;
+}
+
+reder {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+para {
+    color: yellow;
+}
+
+#container2 {
+    background-color: grey;
+    color: white;
+    margin: 0 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#c {
+    text-align: left;
+    color: black;
+    margin: 10px 30px;
+    padding: 2px;
+}
+
+#name {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+colo {
+    color: lightgreen;
+}
+
+#atribute {
+    margin: 20px 0 10px 30px;
+    color: darkblue;
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+i {
+    font-size: 20px;
+}
+
+#cc {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#ct {
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ccc {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
