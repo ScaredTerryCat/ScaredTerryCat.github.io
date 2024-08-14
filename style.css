@@ -54,4 +54,61 @@ para {
 
 #c {
     text-align: left;
-    color:
+    color: black;
+    margin-top: 10px;
+    margin-left: 2px;
+    padding: 2px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+#name {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+colo {
+    color: lightgreen;
+}
+
+#atribute {
+    margin: 20px 0 10px 30px;
+    color: darkblue;
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+i {
+    font-size: 20px;
+}
+
+#cc {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    max-width: 100%;
+}
+
+#ct {
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ccc {
+    background-color: lightgrey;
+    padding-top: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
