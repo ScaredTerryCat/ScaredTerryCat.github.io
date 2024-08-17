@@ -23,7 +23,7 @@ padding-bottom:1%;
 #edTitle{margin-left:5%;color:skyblue;overflow-wrap:break-word;max-width:100%;box-sizing:border-box;}
 #edE{margin-left:10%;color:darkred;overflow-wrap:break-word;max-width:100%;box-sizing:border-box;margin-bottom:0%;}
 #competenteContainer{background-color:black;color:white;max-width:100%;box-sizing:border-box;width:fit-content;overflow-wrap:break-word;
-width:fit-content;border:3px solid lightgreen;border-top:3px solid skyblue;margin-bottom:5%;
+width:fit-content;border:3px solid lightgreen;border-top:3px solid skyblue;margin-bottom:5%;margin-right:10%;
 }
 #competenteTitle{margin-left:5%;max-width:100%;box-sizing:border-box;color:red;margin-top:0;}
 #competentE{margin-left:10%;max-width:100%;box-sizing:border-box;}
