@@ -13,7 +13,9 @@ margin:0;
 overflow-wrap:break-word;
 }
 #date{border-right:3px solid lightgreen;border-left:3px solid red;border-top:3px solid red;}
-#imageContainer{padding:1%;background-color:grey;border-right:3px solid red;border-top:3px solid lightgreen;border-bottom:3px solid red;transition:background-color 0.5s ease;}
+#imageContainer{padding:1%;background-color:grey;border-right:3px solid red;border-top:3px solid lightgreen;
+                border-bottom:3px solid red;transition:background-color 0.5s ease;margin-bottom:0px;
+               }
 #image{border-radius:100px;}
 #edContainer{clear:both;background-color:yellow;max-width:100%;box-sizing:border-box;
 width:fit-content;overflow-wrap:break-word;border-right:3px solid lightgreen;
