@@ -18,8 +18,9 @@ i{font-size:50px;}
 #shell{color:black;}
 #brain{color:red;}
 #mario{margin-right:20px;border:3px solid gold;float:left;border-radius:100%;}
-p{font-size:20px;}
-.contactContainer{padding:10px;}
+p{font-size:20px;max-width:100;overflow-wrap:break-word;box-sizing:border-box;background-color:lightgreen;padding:10px;margin-top:40px;margin-right:20px;margin-left:20px;border-radius:5px;}
+#p1{width:fit-content;}
+.contactContainer{padding:10px;background-color:black;}
 a{margin-left:30px;}
 </style>
 </head>
@@ -41,43 +42,40 @@ a{margin-left:30px;}
 <i class="fa-solid fa-dove fa-stack-1x" id="bird"></i>
 </span>
 </div>
-<div class="mainContainer"><img src="mario2.jpeg" width=200px id="mario"></img>
-<h2>Salut!!!</h2>
-<p>Numele meu este Hutu Alexandru Mario. In data de 15 Ianuarie 2025 voi avea 20 de ani. Anul asta am devenit crestin,dar asta o spun eu...
+<div class="mainContainer">
+<p id="p1">
+<img src="mario2.jpeg" width=200px id="mario"></img>
+HelloW (Hello World) , &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp
 <br>
-Imi place sa invat lucruri noi pentru ca am impresia ca ele imi umplu sufletul. Si un suflet plin e mai greu de ispitit si supus raului.
+&nbsp&nbsp&nbsp&nbspMy name is Hutu Mario Alexandru and I am a computer science student at the "University Of Oradea" <big>+</big> a christian, the order does not matter as I am both in the same time. I think.<br>
+I can say that i am quite good with computers even if my highschool teacher was kinda blind to my talent. I feel much more apreciated here ,at the university of oradea and I almost love almost all my teachers and course peers :)
 <br>
-Un suflet plin nu poate fi gol de suferinta, iar suferinta naste empatie, iar empatia mila. Daca nu cumva sunt acelasi lucru. Dar ideea transcende cuvintele.
+I also feel like I evolve everyday and get closer to my goals thanks to the people that God uses for his great works. Grace be to him.
 <br>
-Sunt fericit? nu cred ca conteaza asa de mult. Fericirea mea nu ar trebui sa fie pe primul plan. Cred intr-o viziune empatica asupra vietii.
-Desigur,empatia mea e limitata. De slabiciune si ...presiune?
+I remember that i was so hungry that I was hating everybod...
 <br>
-De faptul ca ar fi mai rau poate sa duc cat pot duce decat sa-mi limitez empatia.
+Now I am one of the happiest people ever, but you know I still feel bad because there is still so much evil in this world...
 <br>
-Unii ma considera arogant si chiar zeflemitor. Asta doar din cauza ca incerc sa par "tare". Ca sa-mi ascund slabiciunile adevarate.
+Wars,diseases and broken hearts and souls everywhere...<br>
+I believe computers can help us stop those...<br>
+&nbsp&nbsp&nbsp&nbspAnd if not I will know I tried, and I had fun, because this thing is really fun for real !
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intr-un fel,creez un om virtual cu o personalitate falsa,care sa fie atacat in niste puncte slabe pe care pare ca le are.
+</p>
+<p>&nbsp&nbsp&nbsp&nbspI am still trying to find my way everyday, gain more knowledge and fight with my ego.<br>
+Maybe it can help you in some situations, to keep your position...to be strong there, in hard situations<br>
+But you must use it ,not it you.
+I don't know if this makes sense, I am not a philosopher :)</p>
+<p>
+&nbsp&nbsp&nbspI love python,I love php,I love c#,I love c++,I love html,I love css,I love...
+What I will love next ?
+It is nice to be lonely with your computer... I remember when I needed one and wanted one but I had no one...
 <br>
-Astfel,nimeni nu-i va stii slabiciunile sufletesti reale, pentru a le putea exploata.
-<br>
-E ca o armura. Oricum ,eu incerc sa fiu totusi bun cu toti, dar pentru asta va trebui poate sa-mi dezbrac sufletul...
-<br>
-Oricum ,ca sa ma apar putin, eu nu sunt zeflemitor si nici arogant. Si nici personalitatea mea virtuala nu este.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lumea ( adica cei ce "ma cunosc" ) ma vede asa pentru ca am nu m-am supus ei in totalitate niciodata si pentru ca i-am criticat ideile,adevarat ca critica e uneori zeflemitoare.
-Dar nu e necesara? Eu cred ca feedbackul e mai presus de durere.Mai ales daca e cerut...
-<br>
-Pana la urma, personalitatea mea virtuala are ca trasatura dominanta de caracter ambiguitatea.Pentru ca nu poti umfla un balon cu doua gauri.
-<br>
-Imi e frica sa fiu explicit, pentru ca daca lumea ma ataca nu pot folosi alt sens ca sa ma apar.
-Si asta nu e chiar o minciuna , ci e un mod de a comunica viclean ,secretos.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pe plan practic,imi doresc sa fac lumea un loc mai bun.Pentru ca pentru mine practicul trebuie sa tinda spre un scop ideal...
-<br>
-Pentru asta ,voi folosi calculatorul.Cum,probabil ca sunt multe moduri, in fiecare zi invat ceva nou.
-<br>
-Slava Domnului!
-</p></div>
+I was so happy when I finally had enough money to buy one...
+But this is not about me, love you all !!!
+(Love is the way , I'm making you stay :)))<br>
+&nbsp&nbsp&nbsp&nbspThis is what I am listening to right now, I also love music , music with everything !
+</p>
+</div>
 <div class="contactContainer">
 <h2 style="background-color:red;width:fit-content;padding:5px;border-radius:5px;">Click bellow icons to find "me"</h2>
 <a href="https://github.com/ScaredTerryCat"><i class="fa-brands fa-github"></i></a>
@@ -86,4 +84,54 @@ Slava Domnului!
 <a href="https://www.youtube.com/watch?v=B-He6EzP5zY">a favorite song</a>
 </div>
 </body>
+<script>
+let icons1=[document.getElementById("heart"),
+document.getElementById("brain")];
+let iconsLen1=icons1.length;
+function changeIcons1(){
+var newColor="red";
+if(icons1[0].style.color=="red"){
+newColor="blue";}
+else{newColor="red";}
+for(let i=0;i<iconsLen1;i++){
+icons1[i].style.color=newColor;
+}
+}
+let icons2=[document.getElementById("cross"),document.getElementById("bird")];
+let iconsLen2=icons2.length;
+function changeIcons2(){
+var newColor="white";
+if(icons2[0].style.color=="black"){
+newColor="white";
+}
+else{
+newColor="black";}
+for(let i=0;i<iconsLen2;i++){
+icons2[i].style.color=newColor;
+}
+}
+function changeLinuxAndShell(){
+let shell=document.getElementById("shell");
+let linux=document.getElementById("linux");
+let icons=[shell,linux];
+let len=icons.length;
+let newColor1="";
+let newColor2="";
+if(icons[0].style.color=="black"){
+newColor1="white";
+newColor2="blue";
+}
+else{
+newColor1="black";
+newColor2="red";}
+icons[0].style.color=newColor1;
+icons[1].style.color=newColor2;
+}
+function changeIcons(){
+changeIcons1();
+changeIcons2();
+changeLinuxAndShell();
+}
+setInterval(changeIcons,1000);
+</script>
 </html>
